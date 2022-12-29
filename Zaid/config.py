@@ -13,7 +13,7 @@ BOT_TOKEN = getenv('BOT_TOKEN', "5929537401:AAF2jMjx2tQsojl3C5JxmQXcJ__RiRjuWqQ"
 API_ID = int(getenv("API_ID", "22733485"))
 API_HASH = getenv('API_HASH', "e6095dc075ad1ef78eb7697ece6d6feb")
 DURATION_LIMIT = int(getenv('DURATION_LIMIT', '540000'))
-COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ !').split())
+COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', "/").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.zcd4byg.mongodb.net/?retryWrites=true&w=majority")
 SUDO_USERS = list(map(int, getenv('SUDO_USERS', "5843477713" ).split()))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001688479760'))
